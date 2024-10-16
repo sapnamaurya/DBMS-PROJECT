@@ -3,6 +3,7 @@ import { TiEdit } from "react-icons/ti";
 import { RiDeleteBin5Fill } from "react-icons/ri";
 import "./single.css";
 import { Link } from "react-router-dom";
+import Menu from "../components/Menu";
 
 const Single = () => {
   return (
@@ -54,14 +55,35 @@ const Single = () => {
           world
         </p>
         <p>
+          In today’s systematic learning process the Arab saying “Seek knowledge
+          even as far as China” is much suitable. Travelling automatically suits
+          here as process of learning. It is the literal movement from one place
+          to another than watch television to acquire knowledge. Journeys shown
+          in television and internet videos still seem quite metaphorical.
+        </p>
+        <p>
+          Travelling can be approached in various ways. Most of the time
+          students and researchers travel in groups or with their families.
+          Common interests are involved in such group-travelling. Travelling is
+          part of adult-education. In most of the countries it has been made
+          compulsory in their educational institutions
+        </p>
+        <p>
           Some travel permanently. That is part of migration which has been a
           common phenomenon ever since ages. They may settle in another place
           forever. Greater cities like London and other cities of Europe and
           North America have been known for having settlers from all over the
           world.
         </p>
+        <p>
+          Today science has made travelling so easy, swift and so comfortable.
+          Sometimes families travel to the kins inside their countries and
+          abroad. This personally benefits them to see and know new lands and
+          make new acquaintances. The family also remains united despite far
+          away from each other.
+        </p>
       </div>
-      <div className="menu"></div>
+      <Menu />
     </div>
   );
 };
