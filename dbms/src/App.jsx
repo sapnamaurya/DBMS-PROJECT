@@ -23,7 +23,6 @@ function App() {
           <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
-      <p>deuhdfejhd</p>
     </div>
   );
 }
