@@ -1,0 +1,79 @@
+.single {
+  display: flex;
+  gap: 50px;
+}
+.content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.content img {
+  width: 76%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+span {
+  font-weight: bold;
+}
+
+.edits {
+  gap: 5px;
+  display: flex;
+}
+.edit {
+  color: white;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+
+  background: teal;
+}
+.delete {
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 3px 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  background: rgb(142, 107, 119);
+}
+
+.content p {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.content h1 {
+  font-size: 41px;
+  color: #333;
+  margin-top: 0;
+}
