@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use("/api/posts", postRoutes);
 app.use("/api/users", userRoutes);
-app.use("/api/auths", authRoutes);
+app.use("/api/auth", authRoutes);
 
 app.listen(8800, () => {
   console.log("connected!");
