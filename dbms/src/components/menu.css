@@ -29,13 +29,13 @@ h2 {
   padding: 5.5px 14px;
   border: none;
   cursor: pointer;
-  color: teal;
+  color: #b9e7e7;
   background-color: white;
-  border: 1px solid teal;
+  border: 1px solid #b9e7e7;
 
   &:hover {
     border: 1px solid white;
-    background-color: teal;
+    background-color: #b9e7e7;
     color: white;
   }
 }
