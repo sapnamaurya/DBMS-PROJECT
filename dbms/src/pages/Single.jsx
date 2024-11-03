@@ -36,7 +36,10 @@ const Single = () => {
       <Navbar />
       <div className="single">
         <div className="content">
-          <img src={post?.img} alt="image" />
+          <img
+            src="https://mapmygenome.in/cdn/shop/articles/How_to_Stay_Healthy_While_Traveling_-_Tips_and_Insights_for_a_Safe_Journey.webp?v=1718688910"
+            alt="image"
+          />
           <div className="user">
             <img
               src="https://imgs.search.brave.com/jb8N75VR9_S4C_RS5-9Tks2NTKVFH6VKml-J4fBi9hU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc4/ODk5MzQ3Mi9waG90/by9zbWlsaW5nLXlv/dW5nLWV1cm9wZWFu/LWxhZHktaW4tc3Vp/dC1hdC10YWJsZS10/eXBpbmctb24tbGFw/dG9wLWNoYXR0aW5n/LXdpdGgtY2xpZW50/LndlYnA_YT0xJmI9/MSZzPTYxMng2MTIm/dz0wJms9MjAmYz1D/MWVlVVZiWEJpalZY/eGZYVTJTNHFmaWJN/T2tXNzM1VVhwSGNZ/Mi1FdFpzPQ"
@@ -46,14 +49,13 @@ const Single = () => {
               <span>{post.username}</span>
               <p>Posted {moment(post.date).fromNow()}</p>
             </div>
-            {currentUser.username === post.username && (
-              <div className="edits">
-                <Link to={`/write?edit=2`} state={post}>
-                  <TiEdit className="edit" />
-                </Link>
-                <RiDeleteBin5Fill className="delete" />
-              </div>
-            )}
+
+            <div className="edits">
+              <Link to={`/write?edit=2`} state={post}>
+                <TiEdit className="edit" />
+              </Link>
+              <RiDeleteBin5Fill className="delete" />
+            </div>
           </div>
           <h1>Travelling</h1>
           <p>

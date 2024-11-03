@@ -1,0 +1,13 @@
+footer {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #72a3a3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+footer img {
+  width: 106px;
+  height: 6vh;
+}

@@ -25,7 +25,7 @@
     content: "";
     width: 79%;
     height: 98%;
-    background-color: #b9e7e7;
+    background-color: #72a3a3;
     position: absolute;
     top: 16px;
     left: -15px;
@@ -45,7 +45,7 @@ h1 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 button {
@@ -55,11 +55,12 @@ button {
   cursor: pointer;
   background-color: white;
   border: 1px solid #b9e7e7;
-  color: #b9e7e7;
+  color: #72a3a3;
+  font-weight: bold;
 
   &:hover {
     border: 1px solid white;
-    background-color: #aacace;
+    background-color: #72a3a3;
     color: black;
   }
 }
