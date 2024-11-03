@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: teal;
+  background-color: #b9e7e7;
 }
 .auth h1 {
   font-size: 20px;
@@ -29,7 +29,7 @@
 .auth form button {
   padding: 10px;
   border: none;
-  background-color: teal;
+  background-color: #b9e7e7;
   cursor: pointer;
   color: white;
 }

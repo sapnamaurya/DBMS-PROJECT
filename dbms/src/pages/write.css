@@ -55,16 +55,16 @@
 
   :first-child {
     cursor: pointer;
-    color: teal;
+    color: #b9e7e7;
     background-color: white;
-    border: 1px solid teal;
+    border: 1px solid #b9e7e7;
     padding: 3px 5px;
   }
   :last-child {
     cursor: pointer;
     color: white;
-    background-color: teal;
-    border: 1px solid teal;
+    background-color: #b9e7e7;
+    border: 1px solid #b9e7e7;
     padding: 3px 5px;
   }
 }
@@ -73,5 +73,5 @@
   display: flex;
   align-items: center;
   gap: 2px;
-  color: teal;
+  color: #b9e7e7;
 }
